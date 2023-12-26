@@ -1,0 +1,42 @@
+/* Your existing CSS styles */
+
+html {
+    font-size: 16px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #2c3e50; /* Dark text color */
+}
+
+.btn-primary {
+    background-color: #3498db; /* Blue button color */
+    border-color: #3498db;
+}
+
+    .btn-primary:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+        border-color: #2980b9;
+    }
+
+.card {
+    transition: transform 0.3s ease; /* Smooth card transformation on hover */
+    background-color: #ffffff; /* White background for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+    .card:hover {
+        transform: scale(1.03); /* Slightly scale up on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow becomes a bit more prominent */
+    }
