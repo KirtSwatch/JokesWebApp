@@ -35,4 +35,4 @@ We welcome contributions! Feel free to fork the repository, create issues, and s
 
 This project is licensed under the MIT License.
 
-Happy coding! 🚀
+Happy coding :)
